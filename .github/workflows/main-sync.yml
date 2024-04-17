@@ -1,5 +1,8 @@
 name: Sync main branch
 
+env:
+  GITHUB_TOKEN: ${{ secrets.APACHE_SYNC_MIDSTREAM_TOKEN }}
+
 on:
   schedule:
     - cron:  '0 1 * * 0' 
