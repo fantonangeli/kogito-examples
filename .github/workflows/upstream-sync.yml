@@ -18,3 +18,4 @@ jobs:
         uses: fantonangeli/kie-ci/.ci/actions/upstream-sync@No-issue-fix-condition-error-in-upstream-sync-test
         with:
           upstream_remote: https://github.com/apache/incubator-kie-kogito-examples.git
+          dry_run: true
